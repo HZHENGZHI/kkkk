@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry exported="true" kind="lib" path="lib/swing-layout-1.0.3.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/AbsoluteLayout.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/wdnm_windows/Desktop/beautyeye_lnf.jar"/>
+	<classpathentry kind="lib" path="C:/Users/wdnm_windows/Desktop/datepicker.jar" sourcepath="C:/Users/wdnm_windows/Desktop/datepicker.jar"/>
+	<classpathentry kind="lib" path="C:/Users/wdnm_windows/Desktop/swingx-core-1.6.2.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/wdnm_windows/Desktop/mysql-connector-java-8.0.13.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

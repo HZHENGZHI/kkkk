@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" defaultCharsetForPropertiesFiles="UTF-8">
+    <file url="file://$PROJECT_DIR$/src/MyEclipseGen/check_ticket_businesset.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/MyEclipseGen/check_ticket_oneset.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/MyEclipseGen/check_ticket_stand.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/MyEclipseGen/check_ticket_twoset.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/MyEclipseGen/find_pw.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/MyEclipseGen/order_details.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/MyEclipseGen/person_information_jm.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/MyEclipseGen/place_order.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/MyEclipseGen/registered.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/MyEclipseGen/search_ticket_mian_jm.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/MyEclipseGen/train_list.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/MyEclipseGen/train_ticket.java" charset="UTF-8" />
+    <file url="PROJECT" charset="UTF-8" />
+  </component>
+</project>

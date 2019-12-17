@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component jdk="13 (2)" jdk_type="JavaSDK">
+	<exclude-output/>
+	<contentEntry url="file://$MODULE_DIR$"/>
+	<lib name="swing-layout-1.0.3.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/lib/swing-layout-1.0.3.jar!/"/>
+	</lib>
+	<lib name="AbsoluteLayout.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/lib/AbsoluteLayout.jar!/"/>
+	</lib>
+	<lib name="datepicker.jar" scope="COMPILE">
+		<srcroot url="jar://$MODULE_DIR$/../datepicker.jar!/"/>
+	</lib>
+</component>
