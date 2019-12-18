@@ -161,7 +161,6 @@ public class quit_ticket {
                   } catch (Exception ex) {
                        ex.printStackTrace();
                     }
-
                }
            }});
     }
