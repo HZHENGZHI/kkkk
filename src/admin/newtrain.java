@@ -592,7 +592,8 @@ public class newtrain extends javax.swing.JFrame {
         String two_set_price=twoprice.getText();
         String stand_set_price=standprice.getText();
         Client.inserttrain(startdate1,enddate1,train_num,startlocat2,endlocat1,starttime1,endtime1,business1,oneset2,twoset1,oneset3,business_set_price,one_set_price,two_set_price,stand_set_price);
-
+        JOptionPane.showMessageDialog(null, "添加列车成功");
+        dispose();
     }
 
     /**
