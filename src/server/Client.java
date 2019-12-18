@@ -271,7 +271,7 @@ public class Client implements server_12306 {
         return kk;
     }
 
-    public static void delete(String name,String id_number,String startdate,String enddate,String start_time,String end_time,String startlocat,String endlocat) throws IOException {
+    public static void delete(String name,String id_number,String startdate,String enddate,String start_time,String end_time,String startlocat,String endlocat,String train_number) throws IOException {
         init();
         oos.writeInt(delete);
         oos.flush();
@@ -290,6 +290,8 @@ public class Client implements server_12306 {
         oos.writeUTF(startlocat);
         oos.flush();
         oos.writeUTF(endlocat);
+        oos.flush();
+        oos.writeUTF(train_number);
         oos.flush();
     }
 

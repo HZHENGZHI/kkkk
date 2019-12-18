@@ -148,14 +148,14 @@ public class quit_ticket {
                         index=table.rowAtPoint(e.getPoint());
                         String name=(String) table.getValueAt(index,0);
                         String id_number=(String) table.getValueAt(index,1);
+                        String train_number=(String) table.getValueAt(index,2);
                         String startdate= (String) table.getValueAt(index,3);
                         String enddate=(String) table.getValueAt(index,4);
                         String start_time=(String) table.getValueAt(index,5);
                         String end_time=(String) table.getValueAt(index,6);
                         String startlocat=(String) table.getValueAt(index,7);
                         String endlocat=(String) table.getValueAt(index,8);
-                        Client.delete(name,id_number,startdate,enddate,start_time,end_time,startlocat,endlocat);
-                        //System.out.println(name+id_number+startdate+enddate+start_time+end_time+startlocat+endlocat);
+                        Client.delete(name,id_number,startdate,enddate,start_time,end_time,startlocat,endlocat,train_number);
                         JOptionPane.showMessageDialog(null, "退票成功");
                         train_list.dispose();
                   } catch (Exception ex) {

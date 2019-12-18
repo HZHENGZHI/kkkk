@@ -13,6 +13,7 @@ import server.server_12306;
 import java.io.IOException;
 import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
+import java.io.OutputStream;
 import java.net.ServerSocket;
 import java.net.Socket;
 import java.security.PrivateKey;
@@ -263,8 +264,10 @@ public class serve implements server_12306,Runnable {
         String end_time=ois.readUTF();
         String startlocat=ois.readUTF();
         String endlocat=ois.readUTF();
+        String train_number=ois.readUTF();
         String sql="delete from order_list where name ='"+name+"'"+"and id_number='"+id_number+"'"+"and startdate ='"+startdate+"'"+"and enddate='"+enddate+"'"
-                +"and start_time='"+start_time+"'"+"and end_time='"+end_time+"'"+"and startlocat ='"+startlocat+"'"+"and endlocat='"+endlocat+"'";
+                +"and start_time='"+start_time+"'"+"and end_time='"+end_time+"'"+"and startlocat ='"+startlocat+"'"+"and endlocat='"+endlocat+"'"
+                +"and train_number='"+train_number+"'";
         database.getStat().executeUpdate(sql);
 
 
